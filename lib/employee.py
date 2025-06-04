@@ -1,6 +1,8 @@
-# lib/employee.py
+ # lib/employee.py
 from __init__ import CURSOR, CONN
 from department import Department
+# from lib.review import Review
+
 
 class Employee:
 
@@ -190,7 +192,7 @@ class Employee:
         pass
 
 
-    
+
 def reviews(self):
     """Return list of reviews associated with current employee"""
     from review import Review
